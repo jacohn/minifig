@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Styling for the overall App */
+.App {
+  background-color: #f8f9fa; /* A light background color for the overall app */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Styling for the card */
+.card {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02); /* Slightly scale the card on hover */
+}
+
+.card-img-top {
+  height: 200px; /* Adjust based on your preference */
+  object-fit: cover; /* This will ensure the image covers the entire space */
+  object-position:top;
+}
+
+.card-body h5 {
+  color: #007bff; /* A darker text color for the title */
+}
+
+.card-body p {
+  color: #6c757d; /* A lighter text color for the description */
+}
+
+/* Styling for the search bar */
+.form-control {
+  border-radius: 50px; /* Makes the search bar pill-shaped */
+  border: 1px solid #6c757d; /* A light border color */
+}
+
+/* Styling for the buttons */
+.btn-primary {
+  border-radius: 50px; /* Makes the buttons pill-shaped */
+}
